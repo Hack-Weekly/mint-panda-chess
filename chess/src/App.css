@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 3%;
+    padding-top: 1%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    margin-left: 3%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+    font-family: Lato, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 38px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+div.bodyCenter {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.chessBoard {
+    width: 35%;
+    padding-bottom: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gameButton {
+    display: flex;
+    background-color: black;
+    color: white;
+    border: black;
+    border-radius: 8px;
+    justify-content: center;
+
+    width: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-height: 24px;
 }
